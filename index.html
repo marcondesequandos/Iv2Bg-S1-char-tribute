@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id ="main" role="main">
+        <div id="title" onclick="changeText()">
+            Jean Valjean
+        </div>
+
+        <header>
+            <nav role="navigation" aria-labelledby ="Main" class="navbardiv">
+                <a role="tab" aria-labelledby="Sobre" aria-controls="description" href="#description" class="nav">Sobre</a>
+                <a role="tab" aria-labelledby="Imagens" aria-controls="gallery" href="#gallery" class="nav">Imagens</a>
+                <a role="tab" aria-labelledby="Linha do Tempo" aria-controls="tl" href="#tl" class="nav">Linha do Tempo</a>        
+            </nav>
+        </header>
+
+        <div role="region" aria-labelledby="characterimg" id="img-div">
+            <img onclick="changeImg()" src='https://www.xtrafondos.com/wallpapers/jean-valjean-en-les-miserables-1245.jpg' alt="Jean Valjean Image" id="ic">
+
+
+        </div>
+        <div role="tabpanel" aria-labelledby="description" class="description" id="description">
+            
+            Jean Valjean é o personagem principal do livro "Os Miseráveis" de Victor Hugo.
+
+            Sua história é bastante trágica, principalmente quando perde os dois pais ainda criança e sendo criado pela irmã. Quando ela fica viúva, com sete filhos para criar, 
+            ele começa a ajudá-la. Um inverno, porém, ele não consegue emprego. Desesperado, rouba um pão. É pego e condenado a cinco anos de trabalhos forçados, que, acrescidos de 
+            diversas fugas, tornam-se dezenove. Aos poucos ele vai percebendo que quem cometeu um crime não foi ele, foi a sociedade, pois o prejuízo que causou foi ínfimo em 
+            comparação ao que sofreu.
+
+            É expulso de todos os lugares, pelo simples fato de ser um ex-presidiário. O único que o abriga é Myriel, bispo de Digne. Jean Valjean rouba-lhe os talheres e foge no 
+            meio da noite. Porém é pego pelos policiais e levado à casa do bispo. Don Bienvendu, ao contrário do esperado, diz aos policiais que lhe dera os talheres, e lhe pergunta 
+            por que não levara os castiçais também. Tamanha bondade vinda de um ser humano faz Jean Valjean repensar sua posição em relação aos homens e à sociedade.        
+            <br><br>
+            O personagem já foi interpretado por diversos atores no musical da Broadway e em adaptações para série de TV e cinema. Os atores mais conhecidos que já incoroporaram o personagem
+            são:  Liam Neeson (filme 1998), Gérard Depardieu (série de tv 2000) e Hugh Jackman (filme 2012).
+
+        </div>
+
+        <div role="tabpanel" aria-labelledby="timeline"class="TimeLine"id="tl">
+            <h2>Linha do Tempo</h2>
+            <p>1769 - Nascimento</p>
+            <p>1794 - Começa a ajudar sua irmã viuva a cuidar de seus sete filhos</p>
+            <p>1795 - Rouba um pedaço de pão para alimentar suas sobrinhas e é sentenciado a 5 anos de prisão em Toulon</p>
+            <p>1803 - Javert começa a trabalhar na prisão de Toulon</p>
+            <p>1809 - Valjean ainda está preso por ter sua pena estentida devido a tentativas de fuga</p>
+            <p>1815 - Valjean é libertado e vai até Digne, onde é recebido pelo bispo e rouba as pratarias de Myriel. Perdoado pelo bispo parte para Montreuil agora sob o pseudônimo de Sr. Madeleine</p>
+            <p>1817 - Abre uma fábrica em Montreuil</p>
+            <p>1819 - Vira prefeito da cidade</p>
+            <p>1820 - Javert é transferido para Montreuil como novo inspetor de polícia</p>
+            <p>1820 - Valjean salva Fauchelevent</p>
+            <p>1822 - Champmatieu é perso por roubar maçãs e é identificado como "Jean Valjean"</p>
+            <p>1823 - Fantine, ex-funcionária de Valjean trabalhara como prostituta e fora presa após um confronto nas ruas de Montreuil. Sr. Madeleine (Valjean) como prefeito manda Javert soltá-la</p>
+            <p>1823 - No julgamento de Champmatieu Jean Valjean aparece e assume seu nome verdadeiro pedindo que Javert continue a investigação para prender o verdadeiro criminoso</p>
+            <p>1823 - Fantine fica doente chegando a falecer e pede que o prefeito cuide de sua filha Cosette que está em outra cidade, Valjean surpreendido por Javert escapa de Montreuil em busca da criança</p>
+            <p>1823 - Valjean encontra Cosette sendo escravizada na estalagem dos Ternardier e paga por seu resgate</p>
+            <p>1829 - Valjean deixa o convento com Cosette</p>
+            <p>1831 - Valjean se junta a revolução</p>
+            <p>1831 - Valjean Salva Marius carregando-o pelos esgotos de Paris mas ao sair se depara com Javert, dessa vez sem escapatória</p>
+            <p>1831 - Em um confronto final com Javert, Valjean pensa ser seu fim. No entanto Javert acaba tirando a própria vida, por não conseguir resolver seu maior conflito entre seguir a lei e libertar Valjean que se provou transformado em um bom homem.</p>
+            <a target="_blank" href="https://lesmiserables.fandom.com/wiki/Jean_Valjean">Clique aqui para maiores informações.</a>
+        </div>
+   
+ 
+        
+
+        <div role="tabpanel" aria-labelledby="gallery" class="myGallery" id="gallery">
+            <img src="https://i.pinimg.com/originals/c8/81/a6/c881a67dec730d05276050948fe2f7ae.png" class="gallyPhoto" alt="Hugh Jackman como Jean Valjean">
+            <img src="https://i.redd.it/ayrb6zjip6x11.png" class="gallyPhoto" alt="Javer e Jean Valjean (interpretados por: Russel Crowe e Hugh Jackman)">
+            <img src="https://www.thechurchnews.com/wp-content/uploads/2019/07/archive/ba34e18742/2762760.jpeg" class="gallyPhoto" alt= "Hugh Jackman como Jean Valjean">
+            <img src="https://3.bp.blogspot.com/-J5LbtVwCRvc/UQmU_VSmxmI/AAAAAAAAF7g/MOIDUi6HxcM/s1600/Les%2BMis%25C3%25A9rables-7.jpg" class="gallyPhoto" alt= "Jean Valjean e Fantine (interpretados por: Hugh Jackman e Anne Hathaway)">
+            <img src="https://i0.wp.com/asyourpoetshavesaid.com/wp-content/uploads/2019/07/les-miserables_valjean_sewers.jpg?resize=768%2C512&ssl=1" class="gallyPhoto" alt= "Jean Valjean e Marius (interpretados por: Hugh Jacman e Eddie Redmayne)">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/810SiSZUCxL._AC_SL1500_.jpg" class="gallyPhoto" alt= "Liam Neeson como Jean Valjean ">
+            <img src="https://3.bp.blogspot.com/-s3ZTquVzeqs/UP3_bDFxFUI/AAAAAAAAAJE/E-bCzg0ivF8/s1600/lesmiserables-1998-07-g.jpg" class="gallyPhoto" alt= "Javert e Jean Valjean (interpretados por: Geoffrey Rush e Liam Neeson)">
+            <img src="https://img.ceskatelevize.cz/program/porady/1099424753/foto09/204381445830003_01.jpg?1500033880" class="gallyPhoto" alt= "Jean Valjean e Javert (interpretados por: Gérard Depardieu e John Malkovich)"> 
+            <img src="https://bsp-static.playbill.com/37/8d/82da2b264c98ab748d3f884910a4/les-miserables-john-owen-jones-as-jean-valjean-photo-by-michael-le-poer-trench.jpg" class="gallyPhoto" alt= "John Owen Jones como Jean Valjean">
+        </div>
+        <footer class="footer">
+            <p class = "date"></p>
+        </footer>                
+    </div>
+
+    <script src="script.js"></script>    
+</body>
+</html>
